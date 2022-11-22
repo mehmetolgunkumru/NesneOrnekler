@@ -1,0 +1,12 @@
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg22\U2_Uyg22\bin\Debug\U2_Uyg22.exe.config
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg22\U2_Uyg22\bin\Debug\U2_Uyg22.exe
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg22\U2_Uyg22\bin\Debug\U2_Uyg22.pdb
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg22\U2_Uyg22\obj\Debug\U2_Uyg22.csprojResolveAssemblyReference.cache
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg22\U2_Uyg22\obj\Debug\U2_Uyg22.Properties.Resources.resources
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg22\U2_Uyg22\obj\Debug\U2_Uyg22.csproj.GenerateResource.Cache
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg22\U2_Uyg22\obj\Debug\U2_Uyg22.exe
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg22\U2_Uyg22\obj\Debug\U2_Uyg22.pdb
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg22\U2_Uyg22\obj\Debug\U2_Uyg22.Form1.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg22\U2_Uyg22\bin\Debug\U2_Uyg22.exe.config
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg22\U2_Uyg22\obj\Debug\U2_Uyg22.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg22\U2_Uyg22\obj\Debug\U2_Uyg22.pdb

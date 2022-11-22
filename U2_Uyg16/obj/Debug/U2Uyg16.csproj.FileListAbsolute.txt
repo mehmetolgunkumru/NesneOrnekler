@@ -1,0 +1,9 @@
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2Uyg16\bin\Debug\U2Uyg16.exe.config
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2Uyg16\bin\Debug\U2Uyg16.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2Uyg16\bin\Debug\U2Uyg16.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2Uyg16\obj\Debug\U2Uyg16.csprojResolveAssemblyReference.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2Uyg16\obj\Debug\U2Uyg16.Form1.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2Uyg16\obj\Debug\U2Uyg16.Properties.Resources.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2Uyg16\obj\Debug\U2Uyg16.csproj.GenerateResource.Cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2Uyg16\obj\Debug\U2Uyg16.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2Uyg16\obj\Debug\U2Uyg16.pdb

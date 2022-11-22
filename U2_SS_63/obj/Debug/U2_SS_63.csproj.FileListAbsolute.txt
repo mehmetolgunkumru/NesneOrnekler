@@ -1,0 +1,8 @@
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_63\bin\Debug\U2_SS_63.exe.config
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_63\obj\Debug\U2_SS_63.Form1.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_63\obj\Debug\U2_SS_63.Properties.Resources.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_63\obj\Debug\U2_SS_63.csproj.GenerateResource.Cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_63\bin\Debug\U2_SS_63.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_63\bin\Debug\U2_SS_63.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_63\obj\Debug\U2_SS_63.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_63\obj\Debug\U2_SS_63.pdb

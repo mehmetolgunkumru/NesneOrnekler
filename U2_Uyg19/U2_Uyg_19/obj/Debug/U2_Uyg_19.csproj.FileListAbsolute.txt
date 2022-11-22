@@ -1,0 +1,9 @@
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg_19\U2_Uyg_19\bin\Debug\U2_Uyg_19.exe.config
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg_19\U2_Uyg_19\bin\Debug\U2_Uyg_19.exe
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg_19\U2_Uyg_19\bin\Debug\U2_Uyg_19.pdb
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg_19\U2_Uyg_19\obj\Debug\U2_Uyg_19.csprojResolveAssemblyReference.cache
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg_19\U2_Uyg_19\obj\Debug\U2_Uyg_19.Form1.resources
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg_19\U2_Uyg_19\obj\Debug\U2_Uyg_19.Properties.Resources.resources
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg_19\U2_Uyg_19\obj\Debug\U2_Uyg_19.csproj.GenerateResource.Cache
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg_19\U2_Uyg_19\obj\Debug\U2_Uyg_19.exe
+c:\users\ogrenci\documents\visual studio 2015\Projects\U2_Uyg_19\U2_Uyg_19\obj\Debug\U2_Uyg_19.pdb
