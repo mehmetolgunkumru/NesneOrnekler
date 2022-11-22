@@ -6,3 +6,4 @@ C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg25\obj\Debug\U2_Uyg25.Properties.Re
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg25\obj\Debug\U2_Uyg25.csproj.GenerateResource.Cache
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg25\obj\Debug\U2_Uyg25.exe
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg25\obj\Debug\U2_Uyg25.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg25\obj\Debug\U2_Uyg25.csprojResolveAssemblyReference.cache
