@@ -6,3 +6,4 @@ C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_63\bin\Debug\U2_SS_63.exe
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_63\bin\Debug\U2_SS_63.pdb
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_63\obj\Debug\U2_SS_63.exe
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_63\obj\Debug\U2_SS_63.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_63\obj\Debug\U2_SS_63.csprojResolveAssemblyReference.cache
