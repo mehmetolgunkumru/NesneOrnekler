@@ -1,0 +1,7 @@
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg21\U2_Uyg_21\bin\Debug\U2_Uyg_21.exe.config
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg21\U2_Uyg_21\bin\Debug\U2_Uyg_21.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg21\U2_Uyg_21\bin\Debug\U2_Uyg_21.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg21\U2_Uyg_21\obj\Debug\U2_Uyg_21.Properties.Resources.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg21\U2_Uyg_21\obj\Debug\U2_Uyg21.csproj.GenerateResource.Cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg21\U2_Uyg_21\obj\Debug\U2_Uyg_21.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg21\U2_Uyg_21\obj\Debug\U2_Uyg_21.pdb
