@@ -1,7 +1,6 @@
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg27\bin\Debug\U2_Uyg27.exe.config
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg27\bin\Debug\U2_Uyg27.exe
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg27\bin\Debug\U2_Uyg27.pdb
-C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg27\obj\Debug\U2_Uyg27.csprojResolveAssemblyReference.cache
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg27\obj\Debug\U2_Uyg27.Form1.resources
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg27\obj\Debug\U2_Uyg27.Properties.Resources.resources
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg27\obj\Debug\U2_Uyg27.csproj.GenerateResource.Cache

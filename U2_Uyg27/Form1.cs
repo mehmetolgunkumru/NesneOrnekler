@@ -23,7 +23,7 @@ namespace U2_Uyg27
             while (say <= 10) ;
             {
                 listBox1.Items.Add(say);
-                say++;
+                   say++;
             }
         }
 
@@ -36,5 +36,5 @@ namespace U2_Uyg27
                 say++;
             }
         }
-     
-      
+    }
+}
