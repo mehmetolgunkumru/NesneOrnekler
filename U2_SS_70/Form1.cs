@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace U2_Uyg31
+namespace U2_SS_70
 {
     public partial class Form1 : Form
     {
@@ -19,13 +19,14 @@ namespace U2_Uyg31
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string ad = textBox1.Text;
-            /for (int i = 0; i < listBox1.Items.Count; i++)
+            for (int i = 1; i <= 9; i=i+9)
             {
-                if (listBox1.Items[i].ToString() == ad)
-                {
-                    MessageBox.Show(listBox1.Items[i].ToString() + "Müşteri Bulumdu!");
-                    break;
-              
-                
-       
+                    listBox1.Items.Add(i);
+                    if (i < 10)
+                    {
+                    continue;
+                    }
+                }
+            }
+        }
+    }
