@@ -44,5 +44,10 @@ namespace U2_GoldSoru6
             txtNot2.Text = "";
             txtNot3.Text = "";
         }
+
+        private void btnHesaplama_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
