@@ -12,26 +12,30 @@ namespace U2_Uyg33
 {
     public partial class Form1 : Form
     {
-        private readonly string textBox_KullaniciAdi;
-
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button_Giris_Click(object sender, EventArgs e)
         {
-            string kulanıcıadı;
+            string kullaniciAdi;
+
             long parola;
+
             try
             {
-                kulanıcıadı = textBox_KullaniciAdi
+                kullaniciAdi = txtkuladi.Text.ToString();                parola = long.Parse(txtsifre.Text.ToString());
+
+                MessageBox.Show("Giriş Başarılı.Hoşgeldiniz " +kullaniciAdi);
+
             }
             catch (Exception)
             {
 
-                throw;
+                MessageBox.Show("Şifreniz Sadece Sayılardan Oluşmalıdır.Tekrar Deneyiniz.");                txtsifre.Text = "";
             }
+
         }
     }
-}
+    }

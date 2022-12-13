@@ -6,3 +6,4 @@ C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg32\bin\Debug\U2_Uyg32.exe
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg32\bin\Debug\U2_Uyg32.pdb
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg32\obj\Debug\U2_Uyg32.exe
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg32\obj\Debug\U2_Uyg32.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg32\obj\Debug\U2_Uyg32.csprojResolveAssemblyReference.cache
