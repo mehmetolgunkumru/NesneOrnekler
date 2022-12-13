@@ -14,7 +14,7 @@ namespace U2_SS_71
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
+            //Application.EnableVisualStyles(red);
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }

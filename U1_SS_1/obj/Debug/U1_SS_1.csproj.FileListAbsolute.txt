@@ -6,3 +6,4 @@ C:\Users\Ogrenci\Desktop\NesneOrnekler\U1_SS_1\obj\Debug\SS1.Properties.Resource
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U1_SS_1\obj\Debug\U1_SS_1.csproj.GenerateResource.Cache
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U1_SS_1\obj\Debug\SS1.exe
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U1_SS_1\obj\Debug\SS1.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U1_SS_1\obj\Debug\U1_SS_1.csprojResolveAssemblyReference.cache

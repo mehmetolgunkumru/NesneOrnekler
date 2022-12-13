@@ -19,10 +19,49 @@ namespace U2_GoldSoru4
 
         private void button1_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < 100; i++)
+            try
+            {
+                int kucuksayı, buyuksayı;
+
+                kucuksayı = Convert.ToInt32(textBox1.Text);
+
+                buyuksayı = Convert.ToInt32(textBox2.Text);
+
+                if (kucuksayı > buyuksayı)
+                {
+                    MessageBox.Show("Lütfen küçük sayı yerine küçük sayı giriniz");
+
+                }
+                else
+                {
+                    for (int i = kucuksayı; i < buyuksayı; i++)
+                    {
+                        if (i %2 == 0) 
+                        {
+                            listBox2.Items.Add(i);
+                        }
+                        else
+                        {
+                            listBox1.Items.Add(i);
+                        }
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("LÜTFEN SAYI GİRİNİZ");
+            }
             {
 
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            listBox2.Items.Clear();
+
+        }
+        }
     }
-}

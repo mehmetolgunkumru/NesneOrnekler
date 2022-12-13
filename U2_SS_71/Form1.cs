@@ -31,5 +31,10 @@ namespace U2_SS_71
                 MessageBox.Show("lütfen 0 ve 100 arası bir değer giriniz");
             }
         }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

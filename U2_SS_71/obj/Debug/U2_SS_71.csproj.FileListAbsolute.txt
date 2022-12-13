@@ -6,3 +6,4 @@ C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_71\obj\Debug\U2_SS_71.Properties.Re
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_71\obj\Debug\U2_SS_71.csproj.GenerateResource.Cache
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_71\obj\Debug\U2_SS_71.exe
 C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_71\obj\Debug\U2_SS_71.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_71\obj\Debug\U2_SS_71.csprojResolveAssemblyReference.cache
