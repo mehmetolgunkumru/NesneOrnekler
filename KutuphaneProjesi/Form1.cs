@@ -10,11 +10,35 @@ using System.Windows.Forms;
 
 namespace KutuphaneProjesi
 {
-    public partial class Form1 : Form
+    public partial class formAnaSayfa : Form
     {
-        public Form1()
+        public formAnaSayfa()
         {
             InitializeComponent();
+        }
+
+        private void btnKıtap_Click(object sender, EventArgs e)
+        {
+            FormKitap kitap = new FormKitap();
+            kitap.ShowDialog();
+        }
+
+        private void btnOgrenci_Click(object sender, EventArgs e)
+        {
+            FormOgrenci ogrenci = new FormOgrenci();
+            ogrenci.ShowDialog();
+        }
+
+        private void btnTur_Click(object sender, EventArgs e)
+        {
+            FormKitapTur kitapTur = new FormKitapTur();
+            kitapTur.ShowDialog();
+        }
+
+        private void btnOdunc_Click(object sender, EventArgs e)
+        {
+            FormOduncKitap oduncKitap = new FormOduncKitap();
+            oduncKitap.ShowDialog();
         }
     }
 }
