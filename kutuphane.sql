@@ -13,12 +13,10 @@
 
 
 -- kutuphane için veritabanı yapısı dökülüyor
-DROP DATABASE IF EXISTS `kutuphane`;
 CREATE DATABASE IF NOT EXISTS `kutuphane` /*!40100 DEFAULT CHARACTER SET latin5 */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `kutuphane`;
 
 -- tablo yapısı dökülüyor kutuphane.kitaplar
-DROP TABLE IF EXISTS `kitaplar`;
 CREATE TABLE IF NOT EXISTS `kitaplar` (
   `kitap_id` int NOT NULL AUTO_INCREMENT,
   `tur_id` tinyint NOT NULL DEFAULT '0',
@@ -37,7 +35,6 @@ DELETE FROM `kitaplar`;
 /*!40000 ALTER TABLE `kitaplar` ENABLE KEYS */;
 
 -- tablo yapısı dökülüyor kutuphane.kitap_turleri
-DROP TABLE IF EXISTS `kitap_turleri`;
 CREATE TABLE IF NOT EXISTS `kitap_turleri` (
   `tur_id` tinyint NOT NULL AUTO_INCREMENT,
   `tur_adi` varchar(40) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
@@ -50,7 +47,6 @@ DELETE FROM `kitap_turleri`;
 /*!40000 ALTER TABLE `kitap_turleri` ENABLE KEYS */;
 
 -- tablo yapısı dökülüyor kutuphane.odunc_kitaplar
-DROP TABLE IF EXISTS `odunc_kitaplar`;
 CREATE TABLE IF NOT EXISTS `odunc_kitaplar` (
   `id` int NOT NULL AUTO_INCREMENT,
   `ogr_no` int DEFAULT NULL,
@@ -71,7 +67,6 @@ DELETE FROM `odunc_kitaplar`;
 /*!40000 ALTER TABLE `odunc_kitaplar` ENABLE KEYS */;
 
 -- tablo yapısı dökülüyor kutuphane.ogrenciler
-DROP TABLE IF EXISTS `ogrenciler`;
 CREATE TABLE IF NOT EXISTS `ogrenciler` (
   `ogrenci_no` int NOT NULL AUTO_INCREMENT,
   `ad` varchar(25) DEFAULT NULL,
@@ -82,9 +77,11 @@ CREATE TABLE IF NOT EXISTS `ogrenciler` (
   PRIMARY KEY (`ogrenci_no`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- kutuphane.ogrenciler: ~0 rows (yaklaşık) tablosu için veriler indiriliyor
+-- kutuphane.ogrenciler: ~1 rows (yaklaşık) tablosu için veriler indiriliyor
 DELETE FROM `ogrenciler`;
 /*!40000 ALTER TABLE `ogrenciler` DISABLE KEYS */;
+INSERT INTO `ogrenciler` (`ogrenci_no`, `ad`, `soyad`, `sinif`, `cinsiyet`, `telefon`) VALUES
+	(1086, 'Mehmet Olgun', 'Kumru', 10, 'Erkek', '05300489922');
 /*!40000 ALTER TABLE `ogrenciler` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

@@ -142,7 +142,7 @@ namespace KutuphaneProjesi
                 {
                     baglanti.Open();
                 }
-                komutsatiri = "UPDATE ogrenciler SET ad=@ad,soyad=@soyad,sinif=@sinif,cinsiyet=@cinsiyet,telefon=@telefon,where ogrenci_no=@no";
+                komutsatiri = "UPDATE ogrenciler SET ad=@ad,soyad=@soyad,sinif=@sinif,cinsiyet=@cinsiyet,telefon=@telefon where ogrenci_no=@no";
                 komut = new MySqlCommand(komutsatiri, baglanti);
                 komut.Parameters.AddWithValue("@no", int.Parse(gridOgrenci.CurrentRow.Cells["ogrenci_no"].Value.ToString()));
                 komut.Parameters.AddWithValue("@ad", txtAd.Text);
