@@ -36,20 +36,20 @@ namespace KutuphaneProjesi
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtNo = new System.Windows.Forms.TextBox();
-            this.txtAd = new System.Windows.Forms.TextBox();
-            this.txtSoyad = new System.Windows.Forms.TextBox();
-            this.txtTelefon = new System.Windows.Forms.TextBox();
             this.comboSinif = new System.Windows.Forms.ComboBox();
             this.comboCinsiyet = new System.Windows.Forms.ComboBox();
+            this.txtTelefon = new System.Windows.Forms.TextBox();
+            this.txtSoyad = new System.Windows.Forms.TextBox();
+            this.txtAd = new System.Windows.Forms.TextBox();
+            this.txtNo = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.txtAramaOgrenci = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnKaydet = new System.Windows.Forms.Button();
             this.btnSil = new System.Windows.Forms.Button();
             this.btnGuncelle = new System.Windows.Forms.Button();
-            this.btnKaydet = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.gridOgrenci = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -133,34 +133,6 @@ namespace KutuphaneProjesi
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Bilgi Girişi";
             // 
-            // txtNo
-            // 
-            this.txtNo.Location = new System.Drawing.Point(91, 24);
-            this.txtNo.Name = "txtNo";
-            this.txtNo.Size = new System.Drawing.Size(100, 20);
-            this.txtNo.TabIndex = 6;
-            // 
-            // txtAd
-            // 
-            this.txtAd.Location = new System.Drawing.Point(227, 27);
-            this.txtAd.Name = "txtAd";
-            this.txtAd.Size = new System.Drawing.Size(100, 20);
-            this.txtAd.TabIndex = 7;
-            // 
-            // txtSoyad
-            // 
-            this.txtSoyad.Location = new System.Drawing.Point(399, 24);
-            this.txtSoyad.Name = "txtSoyad";
-            this.txtSoyad.Size = new System.Drawing.Size(100, 20);
-            this.txtSoyad.TabIndex = 8;
-            // 
-            // txtTelefon
-            // 
-            this.txtTelefon.Location = new System.Drawing.Point(405, 63);
-            this.txtTelefon.Name = "txtTelefon";
-            this.txtTelefon.Size = new System.Drawing.Size(100, 20);
-            this.txtTelefon.TabIndex = 9;
-            // 
             // comboSinif
             // 
             this.comboSinif.FormattingEnabled = true;
@@ -185,9 +157,37 @@ namespace KutuphaneProjesi
             this.comboCinsiyet.Size = new System.Drawing.Size(121, 21);
             this.comboCinsiyet.TabIndex = 8;
             // 
+            // txtTelefon
+            // 
+            this.txtTelefon.Location = new System.Drawing.Point(405, 63);
+            this.txtTelefon.Name = "txtTelefon";
+            this.txtTelefon.Size = new System.Drawing.Size(100, 20);
+            this.txtTelefon.TabIndex = 9;
+            // 
+            // txtSoyad
+            // 
+            this.txtSoyad.Location = new System.Drawing.Point(399, 24);
+            this.txtSoyad.Name = "txtSoyad";
+            this.txtSoyad.Size = new System.Drawing.Size(100, 20);
+            this.txtSoyad.TabIndex = 8;
+            // 
+            // txtAd
+            // 
+            this.txtAd.Location = new System.Drawing.Point(227, 27);
+            this.txtAd.Name = "txtAd";
+            this.txtAd.Size = new System.Drawing.Size(100, 20);
+            this.txtAd.TabIndex = 7;
+            // 
+            // txtNo
+            // 
+            this.txtNo.Location = new System.Drawing.Point(91, 24);
+            this.txtNo.Name = "txtNo";
+            this.txtNo.Size = new System.Drawing.Size(100, 20);
+            this.txtNo.TabIndex = 6;
+            // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.txtAramaOgrenci);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Location = new System.Drawing.Point(6, 106);
             this.groupBox2.Name = "groupBox2";
@@ -195,6 +195,23 @@ namespace KutuphaneProjesi
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Arama";
+            // 
+            // txtAramaOgrenci
+            // 
+            this.txtAramaOgrenci.Location = new System.Drawing.Point(85, 35);
+            this.txtAramaOgrenci.Name = "txtAramaOgrenci";
+            this.txtAramaOgrenci.Size = new System.Drawing.Size(223, 20);
+            this.txtAramaOgrenci.TabIndex = 9;
+            this.txtAramaOgrenci.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(19, 38);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(62, 13);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "Ögrenci Adı";
             // 
             // groupBox3
             // 
@@ -208,30 +225,14 @@ namespace KutuphaneProjesi
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "İşlemler";
             // 
-            // label7
+            // btnKaydet
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(19, 38);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 13);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "Ögrenci Adı";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(85, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(223, 20);
-            this.textBox1.TabIndex = 9;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(318, 200);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(0, 0);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Kaydet";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnKaydet.Location = new System.Drawing.Point(45, 19);
+            this.btnKaydet.Name = "btnKaydet";
+            this.btnKaydet.Size = new System.Drawing.Size(100, 40);
+            this.btnKaydet.TabIndex = 11;
+            this.btnKaydet.Text = "Kaydet";
+            this.btnKaydet.UseVisualStyleBackColor = true;
             // 
             // btnSil
             // 
@@ -241,6 +242,7 @@ namespace KutuphaneProjesi
             this.btnSil.TabIndex = 9;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnGuncelle
             // 
@@ -250,15 +252,16 @@ namespace KutuphaneProjesi
             this.btnGuncelle.TabIndex = 10;
             this.btnGuncelle.Text = "Güncelle";
             this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
-            // btnKaydet
+            // button1
             // 
-            this.btnKaydet.Location = new System.Drawing.Point(45, 19);
-            this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Size = new System.Drawing.Size(100, 40);
-            this.btnKaydet.TabIndex = 11;
-            this.btnKaydet.Text = "Kaydet";
-            this.btnKaydet.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(318, 200);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(0, 0);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Kaydet";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // gridOgrenci
             // 
@@ -271,6 +274,7 @@ namespace KutuphaneProjesi
             this.gridOgrenci.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gridOgrenci.Size = new System.Drawing.Size(719, 276);
             this.gridOgrenci.TabIndex = 12;
+            this.gridOgrenci.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridOgrenci_CellClick);
             // 
             // FormOgrenci
             // 
@@ -313,7 +317,7 @@ namespace KutuphaneProjesi
         private System.Windows.Forms.TextBox txtAd;
         private System.Windows.Forms.TextBox txtNo;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtAramaOgrenci;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button btnKaydet;
