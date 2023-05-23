@@ -16,5 +16,13 @@ namespace KutuphaneProjesi
         {
             InitializeComponent();
         }
+
+        private void FormKitap_Load(object sender, EventArgs e)
+        {
+            VeriTabaniIslemleri vtislemleri = new VeriTabaniIslemleri();
+            MySqlConnection baglanti;
+            MySqlCommand komut;
+            string komutsatiri;
+        }
     }
 }
