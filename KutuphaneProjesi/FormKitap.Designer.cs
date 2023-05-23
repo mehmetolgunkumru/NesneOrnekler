@@ -29,7 +29,7 @@ namespace KutuphaneProjesi
         /// </summary>
         private void InitializeComponent()
         {
-            this.gridOgrenci = new System.Windows.Forms.DataGridView();
+            this.gridKitap = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnKaydet = new System.Windows.Forms.Button();
             this.btnSil = new System.Windows.Forms.Button();
@@ -48,23 +48,24 @@ namespace KutuphaneProjesi
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.gridOgrenci)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridKitap)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // gridOgrenci
+            // gridKitap
             // 
-            this.gridOgrenci.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.gridOgrenci.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridOgrenci.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.gridOgrenci.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.gridOgrenci.Location = new System.Drawing.Point(0, 194);
-            this.gridOgrenci.Name = "gridOgrenci";
-            this.gridOgrenci.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gridOgrenci.Size = new System.Drawing.Size(654, 317);
-            this.gridOgrenci.TabIndex = 13;
+            this.gridKitap.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.gridKitap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridKitap.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.gridKitap.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.gridKitap.Location = new System.Drawing.Point(0, 194);
+            this.gridKitap.Name = "gridKitap";
+            this.gridKitap.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.gridKitap.Size = new System.Drawing.Size(654, 317);
+            this.gridKitap.TabIndex = 13;
+            this.gridKitap.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridKitap_CellClick);
             // 
             // groupBox3
             // 
@@ -86,6 +87,7 @@ namespace KutuphaneProjesi
             this.btnKaydet.TabIndex = 11;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // btnSil
             // 
@@ -95,6 +97,7 @@ namespace KutuphaneProjesi
             this.btnSil.TabIndex = 9;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnGuncelle
             // 
@@ -104,6 +107,7 @@ namespace KutuphaneProjesi
             this.btnGuncelle.TabIndex = 10;
             this.btnGuncelle.Text = "Güncelle";
             this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // groupBox2
             // 
@@ -122,6 +126,7 @@ namespace KutuphaneProjesi
             this.txtKitapAra.Name = "txtKitapAra";
             this.txtKitapAra.Size = new System.Drawing.Size(223, 20);
             this.txtKitapAra.TabIndex = 9;
+            this.txtKitapAra.TextChanged += new System.EventHandler(this.txtKitapAra_TextChanged);
             // 
             // label7
             // 
@@ -256,13 +261,13 @@ namespace KutuphaneProjesi
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.gridOgrenci);
+            this.Controls.Add(this.gridKitap);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormKitap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kitap İşlemleri";
             this.Load += new System.EventHandler(this.FormKitap_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.gridOgrenci)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridKitap)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
@@ -274,7 +279,7 @@ namespace KutuphaneProjesi
 
         #endregion
 
-        private System.Windows.Forms.DataGridView gridOgrenci;
+        private System.Windows.Forms.DataGridView gridKitap;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button btnKaydet;
         private System.Windows.Forms.Button btnSil;

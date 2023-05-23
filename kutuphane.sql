@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS `kitap_turleri` (
   PRIMARY KEY (`tur_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- kutuphane.kitap_turleri: ~0 rows (yaklaşık) tablosu için veriler indiriliyor
+-- kutuphane.kitap_turleri: ~14 rows (yaklaşık) tablosu için veriler indiriliyor
 DELETE FROM `kitap_turleri`;
 /*!40000 ALTER TABLE `kitap_turleri` DISABLE KEYS */;
 INSERT INTO `kitap_turleri` (`tur_id`, `tur_adi`) VALUES
@@ -97,7 +97,7 @@ CREATE TABLE IF NOT EXISTS `ogrenciler` (
   PRIMARY KEY (`ogrenci_no`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1087 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- kutuphane.ogrenciler: ~0 rows (yaklaşık) tablosu için veriler indiriliyor
+-- kutuphane.ogrenciler: ~1 rows (yaklaşık) tablosu için veriler indiriliyor
 DELETE FROM `ogrenciler`;
 /*!40000 ALTER TABLE `ogrenciler` DISABLE KEYS */;
 INSERT INTO `ogrenciler` (`ogrenci_no`, `ad`, `soyad`, `sinif`, `cinsiyet`, `telefon`) VALUES
